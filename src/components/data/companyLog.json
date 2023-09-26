@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Google",
+    "image": "https://cdn.pixabay.com/photo/2013/01/29/22/07/google-76659_1280.png",
+    "link": "google.com"
+  },
+  {
+    "id": 2,
+    "title": "Facebook",
+    "image": "https://cdn.pixabay.com/photo/2013/01/29/22/06/facebook-76658_1280.png",
+    "link": "facebook.com"
+  },
+  {
+    "id": 3,
+    "title": "Netflix",
+    "image": "https://cdn.pixabay.com/photo/2022/08/24/20/20/netflix-7408710_1280.png",
+    "link": "netflix.com"
+  },
+  {
+    "id": 4,
+    "title": "Microsoft",
+    "image": "https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png",
+    "link": "microsoft.com"
+  },
+  {
+    "id": 5,
+    "title": "Youtube",
+    "image": "https://cdn.pixabay.com/photo/2015/03/10/17/23/youtube-667451_1280.png",
+    "link": "uber.com"
+  }
+]
