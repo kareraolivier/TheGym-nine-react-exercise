@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import FetchCard from "./FetchCard";
 import ButtonComp from "./ButtonComp";
-// import Loading from "../loading/Loading";
 const FetchData = () => {
   const [user, setUser] = useState([]);
   const fetchUserData = async () => {
