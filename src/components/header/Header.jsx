@@ -1,4 +1,4 @@
-import navList from "./NavList";
+import navList from "./navList";
 const Header = () => {
   return (
     <div className="fixed bg-white w-full z-30">

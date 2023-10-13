@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import FetchCard from "./FetchCard";
-import ButtonComp from "./ButtonComp";
+import Button from "./Button";
 const FetchData = () => {
   const [users, setUsers] = useState([]);
   const fetchUserData = async () => {
@@ -21,7 +21,7 @@ const FetchData = () => {
             Fetching API
           </h1>
         </div>
-        <ButtonComp handleClick={fetchUserData} />
+        <Button handleClick={fetchUserData} />
         <div className="flex flex-wrap justify-center items-center gap-5">
           <FetchCard items={users} />
         </div>

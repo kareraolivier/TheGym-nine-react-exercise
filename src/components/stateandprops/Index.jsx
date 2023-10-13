@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Button from "./ButtonComp";
-const StateandProps = () => {
+import Button from "./Button";
+const StateAndProps = () => {
   const [counter, setCounter] = useState(0);
   const handleClick = () => {
     setCounter((prev) => prev + 1);
@@ -19,4 +19,4 @@ const StateandProps = () => {
   );
 };
 
-export default StateandProps;
+export default StateAndProps;
