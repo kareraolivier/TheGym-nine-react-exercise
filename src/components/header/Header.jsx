@@ -1,10 +1,10 @@
-import { NavList } from "./NavList";
+import navList from "./NavList";
 const Header = () => {
   return (
     <div className="fixed bg-white w-full z-30">
       <nav className="shadow-sm">
         <ul className="flex justify-center py-8 gap-5 font-semibold">
-          {NavList.map((list) => (
+          {navList.map((list) => (
             <li key={list.id}>
               <a
                 href={list.link}

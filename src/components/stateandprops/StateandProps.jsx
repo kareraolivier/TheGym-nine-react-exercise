@@ -1,8 +1,8 @@
 import { useState } from "react";
-import ButtonComp from "./ButtonComp";
+import Button from "./ButtonComp";
 const StateandProps = () => {
   const [counter, setCounter] = useState(0);
-  const hundleClick = () => {
+  const handleClick = () => {
     setCounter((prev) => prev + 1);
   };
   return (
@@ -13,7 +13,7 @@ const StateandProps = () => {
           <span className="text-yellow-600"> {counter} </span>
           times
         </h1>
-        <ButtonComp hundleClick={hundleClick} />
+        <Button handleClick={handleClick} />
       </div>
     </div>
   );

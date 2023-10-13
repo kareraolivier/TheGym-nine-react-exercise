@@ -1,10 +1,10 @@
-import Data from "../data/question.json";
+import data from "../data/question.json";
 import RenderCard from "./RenderCard";
 const RenderingData = () => {
   return (
     <div id="exeight">
       <div className="h-screen flex justify-center items-center">
-        <RenderCard datas={Data} />
+        <RenderCard datas={data} />
       </div>
     </div>
   );

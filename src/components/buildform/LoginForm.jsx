@@ -1,8 +1,8 @@
-import FormComp from "./FormComp";
+import Form from "./FormComp";
 import { useState } from "react";
 const LoginForm = () => {
   const [formData, setFormData] = useState({ firstName: "", lastName: "" });
-  const hundleChange = (event) => {
+  const handleChange = (event) => {
     setFormData((prevFormData) => {
       return {
         ...prevFormData,
@@ -11,14 +11,15 @@ const LoginForm = () => {
     });
   };
   const submitForm = () => {
-    alert(`Good morning ${formData.firstName} ${formData.lastName}`);
+    formData.firstName != "" &&
+      alert(`Good morning ${formData.firstName} ${formData.lastName}`);
     setFormData({ firstName: "", lastName: "" });
   };
   return (
     <div id="exseven">
       <div className="h-screen flex justify-center items-center bg-yellow-500">
-        <FormComp
-          hundleChange={hundleChange}
+        <Form
+          handleChange={handleChange}
           submitForm={submitForm}
           inputValue={formData}
         />

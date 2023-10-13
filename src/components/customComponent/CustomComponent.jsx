@@ -5,10 +5,8 @@ const CustomComponent = () => {
   };
   let clickedButtons = ["1", "2", "3"];
   return (
-    <div>
-      <div className="" id="exthree">
-        <ButtonComp clickedButtons={clickedButtons} openAlert={openAlert} />
-      </div>
+    <div className="" id="exthree">
+      <ButtonComp clickedButtons={clickedButtons} openAlert={openAlert} />
     </div>
   );
 };

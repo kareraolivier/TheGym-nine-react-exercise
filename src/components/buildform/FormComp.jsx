@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const FormComp = ({ hundleChange, submitForm, inputValue }) => {
+const Form = ({ handleChange, submitForm, inputValue }) => {
   return (
     <div className="bg-white px-6 py-12 rounded-lg shadow-xl shadow-black/20">
       <form className="block gap-4">
@@ -7,7 +7,7 @@ const FormComp = ({ hundleChange, submitForm, inputValue }) => {
           <input
             type="text"
             value={inputValue.firstName}
-            onChange={hundleChange}
+            onChange={handleChange}
             placeholder="firstName"
             name="firstName"
             className="bg-gray-300 outline-amber-400 placeholder-slate-400 py-3 px-2 w-80 my-4 rounded-sm"
@@ -17,7 +17,7 @@ const FormComp = ({ hundleChange, submitForm, inputValue }) => {
           <input
             type="text"
             value={inputValue.lastName}
-            onChange={hundleChange}
+            onChange={handleChange}
             placeholder="lastName"
             name="lastName"
             className="bg-gray-300 outline-amber-400 placeholder-slate-400 py-3 px-2 w-80 my-4 rounded-sm"
@@ -35,4 +35,4 @@ const FormComp = ({ hundleChange, submitForm, inputValue }) => {
   );
 };
 
-export default FormComp;
+export default Form;

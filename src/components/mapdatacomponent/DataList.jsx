@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-const DataList = ({ DataLists }) => {
+const DataList = ({ dataLists }) => {
   return (
     <ul className="flex gap-5 flex-wrap justify-center">
-      {DataLists?.map((list) => (
+      {dataLists?.map((list) => (
         <li
           key={list.id}
           className="flex flex-col justify-center cursor-pointer item-center h-32"
