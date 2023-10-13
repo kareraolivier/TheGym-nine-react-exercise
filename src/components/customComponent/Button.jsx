@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const ButtonComp = ({ clickedButtons, openAlert }) => {
+const Button = ({ clickedButtons, openAlert }) => {
   return (
     <div>
       <div className="h-screen flex justify-center items-center bg-yellow-500 gap-4">
@@ -18,4 +18,4 @@ const ButtonComp = ({ clickedButtons, openAlert }) => {
   );
 };
 
-export default ButtonComp;
+export default Button;

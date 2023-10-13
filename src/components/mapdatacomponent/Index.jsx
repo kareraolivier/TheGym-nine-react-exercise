@@ -1,6 +1,6 @@
 import DataList from "./DataList";
 import companyData from "../data/companyLog.json";
-const CompData = () => {
+const Data = () => {
   return (
     <div id="exsix" className="h-screen">
       <div className="h-screen flex justify-center items-center px-4">
@@ -10,4 +10,4 @@ const CompData = () => {
   );
 };
 
-export default CompData;
+export default Data;

@@ -1,4 +1,4 @@
-import ButtonComp from "./ButtonComp";
+import Button from "./Button";
 const CustomComponent = () => {
   const openAlert = (button) => {
     alert(`clicked ${button}`);
@@ -6,7 +6,7 @@ const CustomComponent = () => {
   let clickedButtons = ["1", "2", "3"];
   return (
     <div className="" id="exthree">
-      <ButtonComp clickedButtons={clickedButtons} openAlert={openAlert} />
+      <Button clickedButtons={clickedButtons} openAlert={openAlert} />
     </div>
   );
 };

@@ -1,6 +1,6 @@
-import Form from "./FormComp";
+import Form from "./Form";
 import { useState } from "react";
-const LoginForm = () => {
+const Login = () => {
   const [formData, setFormData] = useState({ firstName: "", lastName: "" });
   const handleChange = (event) => {
     setFormData((prevFormData) => {
@@ -28,4 +28,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default Login;
