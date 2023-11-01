@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "ch/nine-excercise",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "ch/nine-excercise": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "ch/nine-excercise",
+    "origin"
+  ]
+}
