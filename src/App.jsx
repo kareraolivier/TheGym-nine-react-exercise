@@ -8,7 +8,7 @@ import CompData from "./components/mapdatacomponent/CompData";
 import LoginForm from "./components/buildform/Login";
 import RenderingData from "./components/renderingJSON/RenderingData";
 import FetchData from "./components/fetchdata/FetchData";
-import CustomComponent from "./components/customComponent/Customcomponent";
+import CustomComponent from "./components/customComponent/Custom";
 
 function App() {
   return (
